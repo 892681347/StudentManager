@@ -1,0 +1,23 @@
+*{padding: 0px;margin: 0px;}
+.main{width: 100%;height: 760px;background-color: #56baed;padding: 50.6px;}
+.middlediv{position: relative;width: 450px;height: 658.74px;box-shadow: 0 30px 60px 0 rgba(0,0,0,.3);border-radius: 10px 10px 10px 10px;background-color: white;padding: 20px;}
+.auto{margin: auto;}
+.title{text-align: center;width: 200px;margin: 0 105px;border-bottom: 2px solid #5fbae9;}
+.iconsfdiv{width: 300px;border: 1px solid #CBCBCB;border-radius: 10px 10px 10px 10px;margin: 30px 0 50px 55px;padding: 20px 0;}
+.iconsfdiv:hover{box-shadow: 0 30px 60px 0 rgba(0,0,0,.3);}
+.iconimg{text-align: center;margin-bottom: 10px;}
+.selecter{height: 32px;line-height: 32px;width: 260px;}
+.selecter span{float: left;}
+.sfselect{width: 200px;float: right;}
+.left{float: left;}
+.right{float: right;}
+input{margin: 20px 0;}
+.input-control{width: 300px;margin: auto;}
+.yzm{width: 160px;margin-left: 55px;}
+.yzmdiv{width: 150px;margin:10px 0 0 30px;}
+.login{width: 189px;height: 47px;margin:20px 0 0 110px;position: relative;}
+.hidding{position: absolute;bottom: -30px;left: 62px;color: red;}
+.btn-blue{color: #fff;background-color: #56baed;border-color: #03a2b6;}
+.btn-blue:hover{background-color: #40B3ED;color: #fff;}
+.clear{clear: both;}
+.bottomdiv{width: 450px;height: 100px;text-align: center;color: #56baed;padding: 20px;background-color: #f6f6f6;border-top: 1px solid #dce8f1;position: absolute;left: 0px;bottom: 0px;border-radius: 0 0 10px 10px;}

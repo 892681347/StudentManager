@@ -1,0 +1,7 @@
+.middle{width: 20%;margin: auto;margin-top: 50px;}
+.margind{margin-bottom: 20px;}
+.input-left{padding: 0 8px;overflow: hidden;text-overflow: ellipsis;}
+.paddingleft{padding-left: 10px;}
+.auto{margin: auto;margin-left: 108px;}
+.rela{position: relative;}
+.ablt{position: absolute;background-color: #ccc;border: 1px solid #ccc;right: -60px;top: 20px;border-radius: 6px;;width: 50px;height: 32px;}

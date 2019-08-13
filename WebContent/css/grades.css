@@ -1,0 +1,6 @@
+*{padding: 0px;margin: 0px;}
+.title{margin: 20px 0;padding: 10px 0;text-align: center;}
+.textcenter{text-align: center;}
+.msg{text-align: center;line-height: 25.6px;}
+.spanstyle{width: 150px;padding-left: 20px;text-align: left;height: 20px;margin-right: 10px;display:inline-block;}
+.tablestyle{width: 50%;margin: auto;}

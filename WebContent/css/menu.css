@@ -1,0 +1,10 @@
+.round_icon{
+  width: 150px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 10px;
+}

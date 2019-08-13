@@ -1,0 +1,10 @@
+*{padding: 0;margin: 0;}
+.title{font-size: 32px;color: #ADADAD;width: 100%;border-bottom: 1px solid #888888;}
+.titleword{margin: 20px;}
+.down{background-color: #F3F3F3;height: 670px;width: 100%;padding: 30px 80px;}
+.eachinfo{margin-top: 20px;}
+.lineheight{line-height: 30px;}
+.left{float: left;}
+.clear{clear: both;}
+.marginleft{margin:30px 65px;}
+.padidngleft{padding-left: 20px;}

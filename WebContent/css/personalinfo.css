@@ -1,0 +1,15 @@
+a:hover{text-decoration: none;}
+.infotop{width: 95%;margin: auto;margin-top: 20px;height: 142px;}
+.topleft{float: left;}
+.left{float: left;}
+.tximg{height: 100px;}
+.changeimg{width: 100px;height: 37.5px;background-color: #f3f3f3;color: #5ba605;text-align: center;line-height: 37.5px;font-size: 12px;}
+.changeimg:hover{text-decoration: none;color: #5ba605;}
+.changeword{color: #5ba605;}
+.changeword:hover{color: #5ba605;text-decoration: none;}
+.topright{float: left;font-size: 16px;margin-left: 30px;}
+.margintop{margin-top: 10px;}
+
+.infodown{width: 95%;margin: auto;margin-top: 30px;}
+table a{color: white;}
+table a:hober{color: white;text-decoration: none;}
