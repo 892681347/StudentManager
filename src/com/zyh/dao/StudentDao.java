@@ -311,7 +311,7 @@ public class StudentDao {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		String account = null;
-		String sql = "SELECT * FROM student where name=?";
+		String sql = "SELECT * FROM student where username=?";
 		try {
 			conn = DButil.getConnection();
 			pstmt = conn.prepareStatement(sql);
@@ -400,7 +400,7 @@ public class StudentDao {
 			//连接数据库
 			conn = DButil.getConnection();
 			//准备要执行的sql语句
-			String sql = "INSERT INTO student (name,account,password,sclass) VALUES(?,?,?,?);";
+			String sql = "INSERT INTO student (username,account,password,sclass) VALUES(?,?,?,?);";
 			//获取sql语句的执行器对象
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, name);

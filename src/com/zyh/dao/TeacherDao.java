@@ -146,7 +146,7 @@ public class TeacherDao {
 			//连接数据库
 			conn = DButil.getConnection();
 			//准备要执行的sql语句
-			String sql = "INSERT INTO teacher (name,account,password,tclass) VALUES(?,?,?,?);";
+			String sql = "INSERT INTO teacher (username,account,password,tclass) VALUES(?,?,?,?);";
 			//获取sql语句的执行器对象
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, name);

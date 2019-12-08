@@ -11,11 +11,11 @@ import com.zyh.model.Info;
 import com.zyh.util.DButil;;
 
 public class AdminDao {
-	public static void main(String[] args) {
-		AdminDao adminDao = new AdminDao();
-		Admin admin= adminDao.finByAccountAndPwd("zyh","123456");
-		System.out.println(admin);
-	}
+	/*
+	 * public static void main(String[] args) { AdminDao adminDao = new AdminDao();
+	 * Admin admin= adminDao.finByAccountAndPwd("zyh","123456");
+	 * System.out.println(admin); }
+	 */
 	/**
 	 * 通过账户和密码查找用户 用于登录
 	 * @param account
@@ -50,6 +50,7 @@ public class AdminDao {
 		}
 		return null;
 	}
+	
 	public Info findByid(String account){
 		Connection conn = null;
 		PreparedStatement pstmt = null;

@@ -8,12 +8,11 @@ import com.zyh.model.Info;
 import com.zyh.util.DButil;
 
 public class InfoDao {
-	public static void main(String[] args) {
-		Info info = new Info("女","ss","24","长沙","792681347","天蝎座","跑步");
-		String account = "zstx";
-		String type = "学生";
-		new InfoDao().setInfo(account, info, type);
-	}
+	/*
+	 * public static void main(String[] args) { Info info = new
+	 * Info("女","ss","24","长沙","792681347","天蝎座","跑步"); String account = "zstx";
+	 * String type = "学生"; new InfoDao().setInfo(account, info, type); }
+	 */
 	public void setInfo(String account,Info info,String type){
 		Connection conn = null;
 		PreparedStatement pstmt = null;
@@ -25,7 +24,7 @@ public class InfoDao {
 		}else table = "admininfo";
 		try {
 			conn = DButil.getConnection();
-			String sql = "UPDATE "+ table +" SET 性别=?,血型=?,年龄=?,居住地=?,QQ=?,星座=?,兴趣爱好=? WHERE account=?";
+			String sql = "UPDATE "+ table +" SET sex=?,bloodType=?,age=?,site=?,qq=?,constellation=?,interest=? WHERE account=?;";
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, info.getSex());
 			pstmt.setString(2, info.getBloodType());
